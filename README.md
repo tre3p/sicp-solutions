@@ -1,6 +1,6 @@
 # Sicp Racket Boilerplate
 
-[![github action status](https://github.com/tre3p/sicp-solutions/workflows/Racket%20CI/badge.svg)]
+![github action status](https://github.com/tre3p/sicp-solutions/workflows/Racket%20CI/badge.svg)
 
 ### Requirements
 
