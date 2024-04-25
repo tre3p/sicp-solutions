@@ -6,7 +6,7 @@
   (define (reverse-iter l reversed)
     (if (null? l)
       reversed
-      (iter (cdr l) (cons (car l) reversed))))
+      (reverse-iter (cdr l) (cons (car l) reversed))))
 
   (reverse-iter items '()))
 
