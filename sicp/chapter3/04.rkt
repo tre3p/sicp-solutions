@@ -32,6 +32,7 @@
 	dispatch))
 
 (define incorrect-message "Incorrect password")
+(define problems-message "yo man you have problems now")
 
 (define acc (make-account 100 'secret-password))
 
@@ -45,4 +46,4 @@
 (check-equal? (acc 'super-secret-password 'withdraw) incorrect-message)
 (check-equal? (acc 'super-secret-password 'withdraw) incorrect-message)
 (check-equal? (acc 'super-secret-password 'withdraw) incorrect-message)
-(check-equal? (acc 'super-secret-password 'withdraw) "yo man you have problems now")
+(check-equal? (acc 'super-secret-password 'withdraw) problems-message)
