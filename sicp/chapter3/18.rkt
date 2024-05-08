@@ -4,10 +4,6 @@
 
 (define (cycle? list)
 	(define (cycle-iter elems seen)
-		(display elems)
-		(display " ")
-		(display seen)
-		(newline)
 		(cond
 			((null? elems) #f)
 			((memq elems seen) #t)
